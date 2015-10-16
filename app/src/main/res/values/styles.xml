@@ -1,0 +1,69 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/background_main</item>
+        <!--<item name="android:screenOrientation">portrait</item>-->
+    </style>
+<!--
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/background_hello_activity</item>
+    </style>
+-->
+    <!--
+        activity_main
+        -->
+
+    <style name="btns_main" >
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">175dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="encyc_btn_main" parent="btns_main">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="game_btn_main" parent="btns_main">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="settings_btn_main" parent="btns_main">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="help_btn_main" parent="btns_main">
+
+    </style>
+
+    <style name="lable_encyc_main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFD261</item>
+        <item name="android:textSize">35dp</item>
+        <!--
+        android:textColor="#FFD261"
+        android:textSize="35dp"
+        -->
+    </style>
+
+    <style name="linearlayout_for_btns_main">
+        <!--
+                android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>
