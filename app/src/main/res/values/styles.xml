@@ -1,69 +1,151 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@drawable/background_main</item>
-        <!--<item name="android:screenOrientation">portrait</item>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
-<!--
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@drawable/background_hello_activity</item>
-    </style>
--->
-    <!--
-        activity_main
-        -->
 
-    <style name="btns_main" >
-        <item name="android:padding">10dp</item>
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!--
+        <item name="android:background">@color/color_background</item>
+        -->
+    </style>
+
+    <style name="total_background">
+        <item name="android:background">@color/color_background</item>
+    </style>
+
+    <style name="total_background_img">
+        <item name="android:background">@drawable/background_main</item>
+    </style>
+
+    <style name="btns_main_style">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
         <item name="android:textSize">15sp</item>
         <item name="android:layout_width">175dp</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="encyc_btn_main" parent="btns_main">
+    <style name="encyc_btn_main_style" parent="btns_main_style">
         <item name="android:layout_marginBottom">10dp</item>
     </style>
 
-    <style name="game_btn_main" parent="btns_main">
+    <style name="game_btn_main_style" parent="btns_main_style">
         <item name="android:layout_marginBottom">10dp</item>
     </style>
 
-    <style name="settings_btn_main" parent="btns_main">
+    <style name="settings_btn_main_style" parent="btns_main_style">
         <item name="android:layout_marginBottom">10dp</item>
     </style>
 
-    <style name="help_btn_main" parent="btns_main">
+    <style name="help_btn_main_style" parent="btns_main_style">
 
     </style>
 
-    <style name="lable_encyc_main">
+    <style name="lable_encyc_main_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFD261</item>
-        <item name="android:textSize">35dp</item>
-        <!--
-        android:textColor="#FFD261"
-        android:textSize="35dp"
-        -->
+        <item name="android:textColor">@color/labels_text_color</item>
+        <item name="android:textSize">35sp</item>
     </style>
 
-    <style name="linearlayout_for_btns_main">
-        <!--
-                android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:orientation="vertical"
-        android:padding="10dp"
-        -->
+    <style name="linearlayout_for_btns_main_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:orientation">vertical</item>
         <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="MyAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="text_view_in_tabs_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="line_view_in_tabs_style">
+        <item name="android:layout_height">8dp</item>
+    </style>
+
+    <style name="linearlayout_for_btns_gamemenu_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <!--<item name="android:layout_marginBottom">50dp</item>-->
+    </style>
+
+    <style name="linearlayout_for_btns_choice_style" parent="linearlayout_for_btns_gamemenu_style">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="lable_name_gamemenu_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/labels_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_view_in_planet_view_style">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="labels_in_planet_view_style" parent="text_view_in_planet_view_style">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="row_in_palnet_view_style">
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="btn_game_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="textview_in_game_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_in_game_act_style">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="text_in_statist_act_style">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="btns_settings">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 </resources>

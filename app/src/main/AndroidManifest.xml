@@ -6,10 +6,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".Activitys.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +18,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EncyclopediaActivity"
-            android:label="@string/title_activity_encyclopedia" >
-            <intent-filter>
-                <action android:name="ru.vasiliy.qwerty.encyc" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:name=".Activitys.Encyclopedia.EncyclopediaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Encyclopedia.ObjectsListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Encyclopedia.ConstellationViewActivity"
+            android:label="@string/title_activity_constellation_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Encyclopedia.PlanetViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Game.GameMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Game.GameActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Game.StatisticsActivity"
+            android:label="@string/title_activity_statistics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Game.GameOverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Game.ChoiceGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.Encyclopedia.ViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activitys.HelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".Activitys.Game.GameOverShowQuestionActivity" >
         </activity>
     </application>
 

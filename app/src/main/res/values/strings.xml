@@ -1,17 +1,55 @@
 <resources>
-    <string name="app_name">Encyclopedia_of_the_sky</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Энциклопедия\nзвездного неба</string>
+    <string name="app_name2">Encyclopedia_of_the_sky</string>
 
     <!--
         activity_main
     -->
     <string name="encyclopedia"><b>Энциклопедия</b></string>
     <string name="encyclopedia_btn_main">Энциклопедия</string>
-    <string name="help_btn_main">Помошь</string>
+    <string name="help_btn_main">Помощь</string>
     <string name="game_btn_main">Игра</string>
     <string name="settings_btn_main">Настройки</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_encyclopedia">EncyclopediaActivity</string>
+
+    <string name="game_text">Викторина</string>
+    <string name="new_game_gamemenu">Начать игру</string>
+    <string name="statistica_gamemenu">Статистика</string>
+    <string name="login_gamemenu">Войти</string>
+    <string name="user_name_gamemenu">Имя:</string>
+
+    <string name="title_activity_constellation_list">ConstellationListActivity</string>
+    <string name="title_activity_constellation_view">ConstellationViewActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next_page">Следующий --&gt;</string>
+    <string name="prev_page">&lt;-- Предыдущий</string>
+    <string name="back_page">Назад</string>
+    <string name="delete_statistic">Удалить статистику</string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+
+    <string name="text_help_string">
+        Приложение предназначено для ознакомления с объектами звездного неба по темам.
+
+        \n\nИгра состоит в том, что надо ответить на десять вопросов по выбранной теме, подобранных случайным образом.
+
+        \n\nПри нажатии на кнопку \"Энциклопедия\" Вам представиться возможность выбрать тему для изучения. Выбрав тему, Вы попадете либо на экран со списком объектов представленных по этой теме, либо на экран с теорией и/или историей открытия, появления тех или иных явлений.
+
+        \n\nПри нажатии на кнопку \"Игра\" Вы попадете на экран, в котором будет две кнопки \"Начать игру\" и \"Статистика\".
+            \nВ Статистике можно будет посмотреть количество пройденных игр, количество правильных ответов, количество всех вопросов и процент правильных ответов.
+            \nКодга Вы нажмете "Начать игру", появиться окно выбора тем. Сделав вабор, Вам представиться возможность ответить на 10 случайно подобранных вопросов.
+    </string>
+    <!--
+        Приложение предназначено для ознакомления с объектами звездного неба по темам. Из тем в этом приложении подробно представлены планеты, карликовые планеты, экзопланеты, а также созвездия.
+        По остальные темам, охваченных в энциклопедии, представлена только общая теория.
+        \n\n
+        Так же приложение предоставляет возможность проверить свои знания в игровой форме по темам планеты и созвездия.
+        \n\n
+        Игра состоит в том, что надо ответить, по выбранной теме, на десять вопросов подобранных случайным образом.
+    -->
+
 </resources>
